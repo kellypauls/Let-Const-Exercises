@@ -1,0 +1,22 @@
+ES5 Global Constancts
+
+var PI = 3.14;
+PI = 42; // stop me from doing this!
+
+ES2015 Global Constants
+
+const PI = 3.14 prevents you from being able to reassigned or redeclare PI to a different value.
+
+Quiz
+
+What is the difference between var & let?
+-Var can be redeclared and reassigned while let can only be reassigned. Let will be confined to the block scope so it can only be accessed there.Constancts
+
+What is the difference between var & const?
+-Const can never be redeclared or reassigned. It is confined to the block scope just like let is. Var can be redeclared and reassigned and exists in the function scope.
+
+What is the difference between let and const?
+Let can be reassigned a value where as const can not be reassigned or redeclared. Both variables are block scoped.
+
+What is hoisting?
+Hoisting is when variables are taken to the top of the scope and the declarations are read before the rest of the code, therefor you can access the variable name before it is used later on. 
